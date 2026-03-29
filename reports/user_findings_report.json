@@ -1,0 +1,413 @@
+{
+  "generated_at": "2026-03-29T08:13:38.890168+00:00",
+  "users": {
+    "report-user-1": {
+      "first_seen": "2026-03-29T06:08:47.229618+00:00",
+      "last_seen": "2026-03-29T06:10:30.745730+00:00",
+      "turn_count": 3,
+      "risk_counts": {
+        "low": 3,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [
+        "anxious",
+        "lonely",
+        "stressed",
+        "sad"
+      ],
+      "observed_concerns": [
+        "sleep",
+        "school"
+      ],
+      "latest_summary": "Common emotional signals: anxious, lonely, stressed, sad. Common concern areas: sleep, school. Most frequent risk level so far: low.",
+      "turns": [
+        {
+          "timestamp": "2026-03-29T06:08:47.229757+00:00",
+          "risk": "low",
+          "user": "I feel anxious and cannot sleep before exams",
+          "assistant": "That sounds really hard. Pre-exam anxiety can make your mind feel \u201cstuck on,\u201d especially at night, and a lot of people experience this even though it feels very isolating.\n\nA few low-effort things you could try tonight:\n\n- Do a \u201cworry download\u201d for 5 minutes. Write down everything you\u2019re worried about, then make 2 columns: \u201ccan act on tonight\u201d and \u201ccan wait until tomorrow.\u201d This can help your brain stop holding it all at once.\n- Try a short calming exercise: breathe in for 4, out for 6, for 2-3 minutes. A longer exhale can help your body shift out of alarm mode.\n- Reduce pressure to \u201cfall asleep.\u201d Instead, aim to \u201crest.\u201d Sometimes telling yourself \u201cI just need to lie here and rest\u201d lowers the struggle that keeps sleep away.\n- Set a tiny exam plan for tomorrow, like: review one topic for 20 minutes, then take a 5-minute break. Small structure can reduce anxiety.\n\nIf you\u2019re lying in bed wide awake, it can also help to get up for a short while, keep the lights dim, and do something boring and calm until you feel sleepier.\n\nWhat feels strongest right now: racing thoughts, body tension, or fear about the exam itself?"
+        },
+        {
+          "timestamp": "2026-03-29T06:08:56.150790+00:00",
+          "risk": "low",
+          "user": "I also feel lonely and stressed at school",
+          "assistant": "That sounds really hard. Feeling lonely and stressed at school can wear you down, especially when you have to keep showing up every day.\n\nA few low-effort things that might help:\n\n- Pick one \u201csafe person\u201d at school. A counselor, teacher, coach, or classmate. You don\u2019t have to explain everything\u2014just saying \u201cI\u2019ve been having a hard time lately\u201d is enough.\n- Make school feel 5% easier. Choose one small stress-reducer, like writing a tiny to-do list for today, arriving a few minutes early, or taking 3 slow breaths before class.\n- Create one small connection point. Sit near someone familiar, ask a simple question about class, or join one club/activity once just to test it out.\n- Give yourself a reset after school. Even 10 minutes of music, walking, stretching, or quiet time can help your body come down from stress.\n\nIf the loneliness is getting heavy, talking to a school counselor can really help\u2014they\u2019re there for this kind of thing.\n\nWhat feels strongest right now: the loneliness, the school stress, or both?"
+        },
+        {
+          "timestamp": "2026-03-29T06:10:30.746100+00:00",
+          "risk": "low",
+          "user": "I feel anxious and sad today and I need help",
+          "assistant": "I\u2019m really sorry today feels so heavy. Feeling anxious and sad at the same time can be exhausting, and it makes sense that you\u2019d want some support right now.\n\nHere are a few low-effort things you can try in the next 10 minutes:\n\n1. **Slow your breathing**\n   Try breathing in for 4, out for 6, for 1\u20132 minutes. Longer exhales can help your body shift out of high alert.\n\n2. **Name what\u2019s happening**\n   Silently say: \u201cI\u2019m feeling anxious and sad right now. This is hard, but I can get through this moment.\u201d  \n   This can create a little space between you and the feelings.\n\n3. **Ground with your senses**\n   Look around and name:\n   - 5 things you see\n   - 4 things you feel\n   - 3 things you hear  \n   This can help when your mind is spiraling.\n\n4. **Make the next step very small**\n   Pick just one tiny action: drink water, sit by a window, wash your face, or text one safe person \u201cI\u2019m having a hard day.\u201d\n\nIf the sadness or anxiety starts feeling unbearable, or if you might be at risk of hurting yourself, call emergency services or a crisis line right away. If you\u2019re in the U.S. or Canada, you can call or text **988** for immediate support.\n\nWhat feels strongest right now: the anxiety, the sadness, or something else?"
+        }
+      ],
+      "status": "ended",
+      "ended_at": "2026-03-29T06:42:38.418665+00:00"
+    },
+    "web-p03m3ddo": {
+      "first_seen": "2026-03-29T06:12:17.758376+00:00",
+      "last_seen": "2026-03-29T06:34:49.437551+00:00",
+      "turn_count": 9,
+      "risk_counts": {
+        "low": 9,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [
+        "sad",
+        "anxious"
+      ],
+      "observed_concerns": [
+        "relationships"
+      ],
+      "latest_summary": "Common emotional signals: sad, anxious. Common concern areas: relationships. Most frequent risk level so far: low.",
+      "turns": [
+        {
+          "timestamp": "2026-03-29T06:12:17.758563+00:00",
+          "risk": "low",
+          "user": "i am feeling abit heavy on my chest, it feels like i am crumbling inside",
+          "assistant": "I\u2019m really sorry you\u2019re feeling this way. That sounds intense and painful, and I\u2019m glad you said it out loud.\n\nA heavy chest can happen with stress, panic, grief, or emotional overload, but chest pressure can also sometimes be a medical issue. If the heaviness is severe, new, getting worse, or comes with trouble breathing, dizziness, fainting, sweating, nausea, or pain spreading to your arm, back, neck, or jaw, please call emergency services or go to urgent care now.\n\nIf it feels more like emotional overwhelm, try these for the next 5 minutes:\n\n- Unclench your jaw and drop your shoulders.\n- Breathe out longer than you breathe in: inhale for 4, exhale for 6, for 10 rounds.\n- Put both feet on the floor and name 5 things you can see.\n- Put a hand on your chest and say: \u201cI\u2019m overwhelmed right now, but I\u2019m here, and this will pass.\u201d\n\nIf you feel like you might act on thoughts of harming yourself, call emergency services now or go to the nearest ER. If you\u2019re in the U.S. or Canada, call or text 988 for immediate support. If you\u2019re elsewhere, tell me your country and I\u2019ll find the right crisis line.\n\nAre you feeling physically unsafe right now, or does this feel more like emotional panic and overwhelm?"
+        },
+        {
+          "timestamp": "2026-03-29T06:13:16.940411+00:00",
+          "risk": "low",
+          "user": "no its just i had a really bad day i messed my test so i feel so sad",
+          "assistant": "That makes a lot of sense. Doing badly on a test can hit hard, especially if you care a lot and were hoping it would go differently. Feeling crushed right after it happens is a very human reaction.\n\nFor tonight, keep it simple:\n\n- Pause the replay. If your mind keeps saying \u201cI messed everything up,\u201d try: \u201cI had a bad test. That feels awful, but it\u2019s one moment, not my whole future.\u201d\n- Do one body reset. Drink water, wash your face, or take a 5\u201310 minute walk. Small physical actions can reduce that \u201ccrumbling\u201d feeling.\n- Delay problem-solving until later. Give yourself a set time, like tomorrow afternoon, to review what happened and what can be fixed.\n- Pick one next step only. For example: check the grading policy, email the teacher, or write down which parts felt hardest.\n\nIf you want, a simple plan for tomorrow could be:\n1. Rest tonight.\n2. Ask what is still in your control.\n3. Take one practical step.\n\nWhat feels strongest right now: sadness, shame, panic, or disappointment?"
+        },
+        {
+          "timestamp": "2026-03-29T06:15:59.145539+00:00",
+          "risk": "low",
+          "user": "shame and panic as i think it might afect my final grade",
+          "assistant": "That sounds really overwhelming. Shame and panic can make one test feel like proof that everything is falling apart, even when the full picture isn\u2019t clear yet.\n\nTry these low-effort steps right now:\n\n- Slow the panic loop: breathe in for 4, out for 6, 8 times.\n- Name the thought: \u201cI\u2019m having the thought that this will ruin my final grade.\u201d That can create a little distance from it.\n- Check facts, not fears: if you can, look at the syllabus or grade weights tomorrow, not tonight if you\u2019re too activated.\n- Make a tiny plan: write down one action like \u201cemail teacher,\u201d \u201ccalculate possible grade,\u201d or \u201creview what went wrong.\u201d\n\nFor the shame part, it may help to say: \u201cI did poorly on a test. That feels painful. It does not mean I\u2019m a failure.\u201d A bad performance is data, not identity.\n\nIf it helps, use this 10-minute reset:\n1. Sit down and put both feet on the floor.\n2. Take 8 slow breaths.\n3. Drink some water.\n4. Write one sentence: \u201cThe story my panic is telling me is __.\u201d\n5. Write one sentence: \u201cWhat I actually know right now is __.\u201d\n\nWhat do you know for sure right now about how much this test counts toward your final grade?"
+        },
+        {
+          "timestamp": "2026-03-29T06:19:07.448687+00:00",
+          "risk": "low",
+          "user": "i think 25 % of my final grade",
+          "assistant": "That would make a lot of sense to panic about. Twenty-five percent is important, and at the same time it usually still means 75 percent is elsewhere, so this may hurt your grade without defining the whole outcome.\n\nA calmer way to look at it:\n\n- Worst-case thinking says: \u201cI ruined everything.\u201d\n- More balanced thinking says: \u201cThis test matters a lot, but it is one part of the course.\u201d\n\nTry 3 practical options:\n\n- Estimate instead of guessing. Write your rough score range and see what that would actually do to your overall grade.\n- Look for recovery points. Check if there are assignments, participation, a final exam, drops, curves, or extra credit.\n- Make contact early. If appropriate, send a short message to the teacher asking how best to recover and improve.\n\nA simple message could be:\n\u201cHi, I had a difficult time on the test and I\u2019m worried about how it may affect my grade. I want to improve. Could you share the best steps I can take from here?\u201d\n\nFor tonight, your job is not to solve your whole semester. Your job is to lower the panic enough to think clearly tomorrow.\n\nWhat feels more intense right now: the fear about your grade, or the self-judgment about what this means about you?"
+        },
+        {
+          "timestamp": "2026-03-29T06:25:07.627396+00:00",
+          "risk": "low",
+          "user": "i am really ashamed as i did really bad on my test",
+          "assistant": "I\u2019m really sorry you\u2019re feeling this way. Doing badly on a test can hit hard, especially when it makes you question yourself or feel embarrassed.\n\nShame can make one bad result feel like it says something big about who you are, but a test score is just one moment, not your whole worth or intelligence. It makes sense that this hurts.\n\nYou don\u2019t have to convince yourself it \u201cdoesn\u2019t matter\u201d if it does matter to you. But it may help to remember that disappointment and shame are not the same thing. Disappointment says, \u201cI wanted this to go differently.\u201d Shame says, \u201cThere\u2019s something wrong with me.\u201d Those are very different things.\n\nWhat part feels worst right now\u2014the fear of what this means, what others will think, or how you\u2019re judging yourself?"
+        },
+        {
+          "timestamp": "2026-03-29T06:26:21.333050+00:00",
+          "risk": "low",
+          "user": "i really want to calm down and divert my mind",
+          "assistant": "That makes sense. When shame spikes, your mind can get stuck replaying it over and over, and wanting a little relief from that is very human.\n\nFor this moment, you don\u2019t need to solve the test. You just need to get through the next few minutes more gently.\n\nTry this with me: unclench your jaw, drop your shoulders, and take one slow breath in through your nose\u2026 then exhale longer than you inhaled. Even one longer exhale can help your body get the message that you\u2019re safe right now.\n\nAnd if your mind keeps jumping back to the test, you might softly say to yourself, \u201cI\u2019m upset, and I can handle this one moment at a time.\u201d Not because everything is fine, but because you deserve a calmer mind right now.\n\nWhat feels most intense in your body at the moment\u2014racing thoughts, tight chest, nausea, or something else?"
+        },
+        {
+          "timestamp": "2026-03-29T06:33:14.812749+00:00",
+          "risk": "low",
+          "user": "i am really sad, my girlfriend left me",
+          "assistant": "I\u2019m really sorry. Being left by someone you care about can hurt deeply, and it makes sense that you\u2019re feeling this sad right now.\n\nBreakups can bring a mix of grief, shock, loneliness, and even confusion. That doesn\u2019t mean anything is wrong with you\u2014it may just mean this loss is hitting in a very human way.\n\nYou don\u2019t have to rush to \u201cbe okay\u201d tonight. It\u2019s okay if this feels heavy.\n\nWhat feels most painful about it right now\u2014the loss of her, the loneliness, or the way it happened?"
+        },
+        {
+          "timestamp": "2026-03-29T06:34:19.520387+00:00",
+          "risk": "low",
+          "user": "the reason she left me for another man",
+          "assistant": "That cuts really deep. Being left is painful on its own, and knowing she chose someone else can bring a special kind of hurt\u2014rejection, anger, humiliation, and grief all tangled together.\n\nIf you\u2019re feeling crushed or replaying it over and over, that would be a very understandable response. What happened may be stirring up questions about your worth, but her choice does not define your value.\n\nYou don\u2019t have to make sense of it all at once. Right now it may be enough to name that this really hurt.\n\nHow are you getting through this moment\u2014more numb, crying, angry, or something else?"
+        },
+        {
+          "timestamp": "2026-03-29T06:34:49.437723+00:00",
+          "risk": "low",
+          "user": "i want to talk it out to someone",
+          "assistant": "Of course. I\u2019m here with you, and you can talk it out with me.\n\nWhat happened may have left you feeling thrown away or replaced, and that can ache in a very raw way. If you want, you can tell me the whole story, or just the part that keeps looping in your mind most.\n\nWhat part of this are you needing to say out loud right now?"
+        }
+      ],
+      "status": "ended",
+      "ended_at": "2026-03-29T06:43:49.047854+00:00"
+    },
+    "style-check": {
+      "first_seen": "2026-03-29T06:24:10.043488+00:00",
+      "last_seen": "2026-03-29T06:24:25.402856+00:00",
+      "turn_count": 2,
+      "risk_counts": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [
+        "overwhelmed"
+      ],
+      "observed_concerns": [],
+      "latest_summary": "Common emotional signals: overwhelmed. Common concern areas: not enough data. Most frequent risk level so far: low.",
+      "turns": [
+        {
+          "timestamp": "2026-03-29T06:24:10.043568+00:00",
+          "risk": "low",
+          "user": "Today I just feel a little low and tired.",
+          "assistant": "I\u2019m sorry today feels a bit heavy. Feeling low and tired can make everything seem harder, even when nothing big is \u201cwrong.\u201d\n\nIt sounds like your energy is just not there right now, and that can be really wearing. Sometimes those quieter, low days just need a little gentleness rather than pressure to feel different.\n\nWhat does \u201clow\u201d feel most like for you today\u2014sad, drained, numb, or something else?"
+        },
+        {
+          "timestamp": "2026-03-29T06:24:25.402967+00:00",
+          "risk": "low",
+          "user": "I feel stuck and overwhelmed, can you give me a simple plan?",
+          "assistant": "I\u2019m sorry you\u2019re feeling this way. When everything feels stuck and overwhelming, even small decisions can feel heavy. We can make this simpler.\n\nHere\u2019s a very simple plan for the next 20\u201330 minutes:\n\n1. **Pause your body for 1 minute**\n   - Put both feet on the floor.\n   - Take one slow breath in, and a longer breath out.\n   - Look around and name 3 things you can see.\n\n2. **Pick just one \u201ctiny next step\u201d**\n   Choose the easiest possible thing, like:\n   - drink a glass of water\n   - open the document\n   - put one item away\n   - send one message\n   - stand up and stretch\n\n3. **Do it for only 5 minutes**\n   - Set a timer.\n   - Tell yourself: \u201cI do not need to finish this. I only need to begin.\u201d\n\n4. **Reduce the pressure**\n   Ask:\n   - What actually needs doing today.\n   - What can wait.\n   - What is \u201cgood enough\u201d for now.\n\nIf you want, here\u2019s an even shorter version:\n**breathe \u2192 pick one tiny task \u2192 do 5 minutes \u2192 stop and reassess**\n\nIf the overwhelm is emotional more than practical, try this:\n- Name the feeling: \u201cI\u2019m overwhelmed/anxious/frustrated.\u201d\n- Remind yourself: \u201cThis is hard, but I can take one small step.\u201d\n- Focus only on the next 10 minutes, not the whole day.\n\nWhat feels most overwhelming right now\u2014the tasks themselves, the pressure, or your emotions?"
+        }
+      ],
+      "status": "ended",
+      "ended_at": "2026-03-29T06:54:37.214003+00:00"
+    },
+    "tone-check": {
+      "first_seen": "2026-03-29T06:31:47.918967+00:00",
+      "last_seen": "2026-03-29T06:31:47.919006+00:00",
+      "turn_count": 1,
+      "risk_counts": {
+        "low": 1,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [],
+      "observed_concerns": [],
+      "latest_summary": "Common emotional signals: not enough data. Common concern areas: not enough data. Most frequent risk level so far: low.",
+      "turns": [
+        {
+          "timestamp": "2026-03-29T06:31:47.919094+00:00",
+          "risk": "low",
+          "user": "I feel like everything is going wrong and maybe this is bad for me mentally",
+          "assistant": "That sounds really heavy, and it makes sense that you\u2019d be worried about what this is doing to you mentally.\n\nWhen a lot feels like it\u2019s going wrong at once, it can start to wear you down and make everything feel bigger, darker, or harder to handle. That doesn\u2019t mean you\u2019re broken\u2014it may be a sign you\u2019ve been carrying too much for too long and need some extra support right now.\n\nYou don\u2019t have to figure it all out in this moment. I\u2019m here with you.\n\nWhat has been feeling most overwhelming lately?"
+        }
+      ],
+      "status": "ended",
+      "ended_at": "2026-03-29T07:07:54.609356+00:00"
+    },
+    "backend-check-user": {
+      "first_seen": "2026-03-29T06:41:35.434842+00:00",
+      "last_seen": "2026-03-29T06:41:35.434870+00:00",
+      "turn_count": 1,
+      "risk_counts": {
+        "low": 1,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [
+        "stressed"
+      ],
+      "observed_concerns": [],
+      "latest_summary": "Common emotional signals: stressed. Common concern areas: not enough data. Most frequent risk level so far: low.",
+      "status": "ended",
+      "ended_at": "2026-03-29T06:41:35.478621+00:00",
+      "turns": [
+        {
+          "timestamp": "2026-03-29T06:41:35.434954+00:00",
+          "risk": "low",
+          "user": "I feel stressed today",
+          "assistant": "I\u2019m sorry today feels so stressful. Even a simple \u201cI feel stressed\u201d can carry a lot, and it makes sense that you\u2019d want some support with it.\n\nSometimes stress shows up as a busy mind, a tight body, or that feeling of being pulled in too many directions at once. You don\u2019t have to have it all sorted right now.\n\nWhat feels like the biggest source of stress for you today?"
+        }
+      ]
+    },
+    "user-660aeced0d0d": {
+      "first_seen": "2026-03-29T06:50:37.640236+00:00",
+      "last_seen": "2026-03-29T06:50:37.640264+00:00",
+      "turn_count": 1,
+      "risk_counts": {
+        "low": 1,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [
+        "stressed"
+      ],
+      "observed_concerns": [
+        "work"
+      ],
+      "latest_summary": "Common emotional signals: stressed. Common concern areas: work. Most frequent risk level so far: low.",
+      "status": "ended",
+      "ended_at": "2026-03-29T07:28:02.647878+00:00",
+      "turns": [
+        {
+          "timestamp": "2026-03-29T06:50:37.640333+00:00",
+          "risk": "low",
+          "user": "I feel stressed about work deadlines",
+          "assistant": "That sounds really heavy, Bob. When deadlines pile up, it can make your whole mind and body feel tense, like there\u2019s no room to breathe.\n\nA lot of people feel this kind of pressure around work, and it doesn\u2019t mean you\u2019re failing. It may just be a sign that you\u2019ve been carrying a lot and your system is asking for some care.\n\nWhat part of the deadlines feels most stressful right now\u2014the amount of work, the time pressure, or worry about how it will turn out?"
+        }
+      ]
+    },
+    "user-48a626493fc2": {
+      "first_seen": "2026-03-29T06:55:08.594986+00:00",
+      "last_seen": "2026-03-29T06:55:30.510012+00:00",
+      "turn_count": 2,
+      "risk_counts": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [],
+      "observed_concerns": [],
+      "latest_summary": "Common emotional signals: not enough data. Common concern areas: not enough data. Most frequent risk level so far: low.",
+      "status": "ended",
+      "ended_at": "2026-03-29T06:55:34.363359+00:00",
+      "turns": [
+        {
+          "timestamp": "2026-03-29T06:55:08.595140+00:00",
+          "risk": "low",
+          "user": "i am really happy",
+          "assistant": "That\u2019s wonderful to hear, John. I\u2019m really glad something is bringing you that kind of lightness right now.\n\nHappy moments matter, and it can be nice to pause and let yourself enjoy them instead of rushing past them.\n\nWhat\u2019s been making you feel so happy today?"
+        },
+        {
+          "timestamp": "2026-03-29T06:55:30.510177+00:00",
+          "risk": "low",
+          "user": "i just got my new car",
+          "assistant": "That\u2019s so exciting, John \u2014 congrats on your new car. It makes sense that you\u2019d feel really happy right now; getting something you\u2019ve been looking forward to can feel energizing and satisfying.\n\nThis sounds like a moment worth enjoying and being proud of.\n\nWhat are you most excited about with the new car?"
+        }
+      ]
+    },
+    "user-f324205d38b1": {
+      "first_seen": "2026-03-29T07:07:08.357666+00:00",
+      "last_seen": "2026-03-29T07:37:59.899843+00:00",
+      "turn_count": 3,
+      "risk_counts": {
+        "low": 3,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [],
+      "observed_concerns": [],
+      "latest_summary": "Common emotional signals: not enough data. Common concern areas: not enough data. Most frequent risk level so far: low.",
+      "status": "active",
+      "ended_at": null,
+      "turns": [
+        {
+          "timestamp": "2026-03-29T07:07:08.357779+00:00",
+          "risk": "low",
+          "user": "hiiiii, i am okay i guess",
+          "assistant": "Hey Jack, I\u2019m glad you checked in. \u201cOkay, I guess\u201d can hold a lot sometimes\u2014maybe a little tired, unsure, or just getting through the day.\n\nYou don\u2019t have to have a clear answer right away. We can keep it simple.\n\nWhat\u2019s been feeling most present for you today?"
+        },
+        {
+          "timestamp": "2026-03-29T07:16:04.524306+00:00",
+          "risk": "low",
+          "user": "i got my hair done today",
+          "assistant": "Oh, nice, Jack \u2014 that sounds like a meaningful little moment in your day. Getting your hair done can feel refreshing, comforting, or even like a small reset.\n\nHow are you feeling about it now?"
+        },
+        {
+          "timestamp": "2026-03-29T07:37:59.899978+00:00",
+          "risk": "low",
+          "user": "hello",
+          "assistant": "Hi Jack, I\u2019m here with you. It\u2019s good to hear from you again.\n\nWe can keep this really light if you want, or talk about whatever\u2019s on your mind.\n\nHow are you feeling in this moment?"
+        }
+      ],
+      "username": "jack",
+      "display_name": "Jack"
+    },
+    "user-4cd03e30452e": {
+      "username": "lia",
+      "display_name": "Lia",
+      "first_seen": "2026-03-29T07:42:12.013224+00:00",
+      "last_seen": "2026-03-29T08:09:26.739568+00:00",
+      "turn_count": 16,
+      "risk_counts": {
+        "low": 16,
+        "medium": 0,
+        "high": 0
+      },
+      "observed_emotions": [
+        "sad"
+      ],
+      "observed_concerns": [],
+      "latest_summary": "Common emotional signals: sad. Common concern areas: not enough data. Most frequent risk level so far: low.",
+      "status": "active",
+      "ended_at": null,
+      "turns": [
+        {
+          "timestamp": "2026-03-29T07:42:12.013332+00:00",
+          "risk": "low",
+          "user": "Hello.",
+          "assistant": "Hi Lia, I\u2019m glad you reached out. I\u2019m here with you.\n\nHow are you feeling right now?"
+        },
+        {
+          "timestamp": "2026-03-29T07:42:25.866908+00:00",
+          "risk": "low",
+          "user": "I'm really feeling sad.",
+          "assistant": "I\u2019m sorry you\u2019re carrying that right now, Lia. Feeling really sad can make everything seem heavier, and you don\u2019t have to hold it alone here.\n\nI\u2019m with you, and I\u2019m listening.\n\nDo you have a sense of what might be making the sadness feel strongest today?"
+        },
+        {
+          "timestamp": "2026-03-29T07:42:38.050900+00:00",
+          "risk": "low",
+          "user": "Could you help me with it?",
+          "assistant": "Of course, Lia. I\u2019m really glad you asked. When sadness feels heavy, small gentle steps can sometimes make the next few minutes feel a little more manageable.\n\nHere are a few simple options you could try right now:\n1. Put both feet on the floor and take 5 slow breaths, letting the exhale be a little longer than the inhale.\n2. Name 3 things you can see and 2 things you can feel, just to help your mind settle into the present.\n3. Put one hand on your chest and say quietly, \u201cI\u2019m having a hard moment, and I deserve some care.\u201d\n4. If it feels possible, take a sip of water or wrap yourself in something warm.\n\nYou don\u2019t need to do all of them. Even one small thing counts.\n\nIf you want, I can also stay with you and help you sort through what\u2019s behind the sadness, gently and one step at a time.\n\nWhat feels hardest about this sadness right now?"
+        },
+        {
+          "timestamp": "2026-03-29T07:42:46.708061+00:00",
+          "risk": "low",
+          "user": "Thank you.",
+          "assistant": "You\u2019re very welcome, Lia. I\u2019m really glad you said something.\n\nSadness can feel lonely, and reaching out like this matters. You don\u2019t have to explain everything perfectly for me to stay with you.\n\nWould you like to tell me a little about what today has been like for you?"
+        },
+        {
+          "timestamp": "2026-03-29T07:42:55.970143+00:00",
+          "risk": "low",
+          "user": "We can't stop listening.",
+          "assistant": "That sounds unsettling, Lia, and I\u2019m glad you told me. When you say \u201cwe can\u2019t stop listening,\u201d it seems like something may feel very intense or hard to get away from right now.\n\nI want to stay gentle and careful here, and I\u2019m listening without judgment.\n\nCan you tell me a little more about what \u201clistening\u201d means for you right now?"
+        },
+        {
+          "timestamp": "2026-03-29T07:48:40.440331+00:00",
+          "risk": "low",
+          "user": "Hello.",
+          "assistant": "Hi Lia, I\u2019m here with you.\n\nIt sounds like things may feel a bit hard to put into words right now, and that\u2019s okay. We can go slowly.\n\nWhat feels most present for you in this moment?"
+        },
+        {
+          "timestamp": "2026-03-29T07:49:47.717405+00:00",
+          "risk": "low",
+          "user": "Hello.",
+          "assistant": "Hi Lia. I\u2019m here with you.\n\nYou\u2019ve reached out a few times, and it seems like something may be weighing on you. You don\u2019t have to say it perfectly.\n\nWhat are you feeling most strongly right now?"
+        },
+        {
+          "timestamp": "2026-03-29T07:50:02.198167+00:00",
+          "risk": "low",
+          "user": "Hello.",
+          "assistant": "Hi Lia. I\u2019m here, and I\u2019m glad you kept reaching out.\n\nIt seems like it might be hard to find words right now, and that\u2019s completely okay. We can keep this very simple and go one moment at a time.\n\nWhat emotion feels closest to the surface for you right now?"
+        },
+        {
+          "timestamp": "2026-03-29T07:52:46.946260+00:00",
+          "risk": "low",
+          "user": "I'm really happy.",
+          "assistant": "That\u2019s lovely to hear, Lia. I\u2019m glad something in this moment feels bright for you.\n\nHappiness can feel especially meaningful after a hard stretch, and it\u2019s okay to just enjoy it without needing to explain it perfectly.\n\nWhat do you think is contributing most to that happy feeling right now?"
+        },
+        {
+          "timestamp": "2026-03-29T07:54:12.524901+00:00",
+          "risk": "low",
+          "user": "I just got my hair done.",
+          "assistant": "Aw, that\u2019s such a nice feeling, Lia. A fresh hair appointment can make you feel renewed, lighter, and a little more like yourself.\n\nIt sounds like this may have given you a real lift today, and I\u2019m glad you\u2019re getting to enjoy that.\n\nWhat is it about your new hair that\u2019s making you feel happiest right now?"
+        },
+        {
+          "timestamp": "2026-03-29T07:56:41.101886+00:00",
+          "risk": "low",
+          "user": "Just the color.",
+          "assistant": "That makes sense, Lia. Sometimes the color is the whole magic of it, like seeing a version of yourself that feels fresh, expressive, or more you.\n\nIt\u2019s nice that something as simple as that could bring a little lightness today.\n\nWhat about the color feels most right to you?"
+        },
+        {
+          "timestamp": "2026-03-29T07:57:38.042266+00:00",
+          "risk": "low",
+          "user": "Look on me.",
+          "assistant": "I get that, Lia. It sounds like the color just looks right on you, and that can feel really affirming, like you\u2019re seeing yourself in a way that feels good.\n\nThose little moments of \u201cyes, this suits me\u201d can genuinely lift your mood.\n\nHow are you feeling in yourself now when you catch your reflection?"
+        },
+        {
+          "timestamp": "2026-03-29T07:59:37.035136+00:00",
+          "risk": "low",
+          "user": "The hair looks really nice, I don't know what what it is but it's like looking nice.",
+          "assistant": "That makes a lot of sense, Lia. Sometimes it\u2019s hard to explain beyond \u201cit just looks nice,\u201d and that feeling can still be very real and meaningful.\n\nIt sounds like seeing yourself this way is giving you a gentle kind of pleasure, maybe even a little ease or confidence. You don\u2019t have to analyze it too much to enjoy it.\n\nWhat feeling comes up most when you look at it: comfort, confidence, excitement, or something else?"
+        },
+        {
+          "timestamp": "2026-03-29T08:02:10.295919+00:00",
+          "risk": "low",
+          "user": "Now I'm Cortana. Nepali booster Nair.",
+          "assistant": "That sounds pretty fast-moving and a little hard to track, Lia. I\u2019m still here with you, and you don\u2019t need to make it make perfect sense for me.\n\nSometimes when thoughts start jumping around, it can feel strange or intense even if part of you also feels energized. We can keep this very simple.\n\nWhat does this moment feel like in your body right now\u2014calm, buzzy, restless, or something else?"
+        },
+        {
+          "timestamp": "2026-03-29T08:03:20.496108+00:00",
+          "risk": "low",
+          "user": "Really good.",
+          "assistant": "I\u2019m glad it feels really good, Lia. That sense of feeling bright, energized, or pleased with yourself can be a lovely thing to sit in.\n\nFrom what you\u2019ve shared, it sounds like your hair color is giving you a strong lift and you\u2019re really enjoying how you look right now. You\u2019re allowed to have that moment and let it feel good.\n\nWhat word fits this feeling best for you right now: confident, excited, powerful, peaceful, or something else?"
+        },
+        {
+          "timestamp": "2026-03-29T08:09:26.739668+00:00",
+          "risk": "low",
+          "user": "Hello.",
+          "assistant": "Hi Lia. I\u2019m here with you.\n\nIt seems like you\u2019re checking back in, and I\u2019m glad you did. We can keep it simple and just stay with what\u2019s here right now.\n\nHow are you feeling in this moment?"
+        }
+      ]
+    }
+  }
+}

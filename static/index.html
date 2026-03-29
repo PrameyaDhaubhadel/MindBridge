@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindBridge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <main class="layout">
+    <header class="hero">
+      <p class="eyebrow">MindBridge</p>
+      <h1>Supportive conversations for your mental wellness</h1>
+      <p class="subtitle">
+        Friendly, evidence-informed guidance for stress, anxiety, and emotional overwhelm.
+        This is supportive coaching, not medical diagnosis.
+      </p>
+    </header>
+
+    <section id="authCard" class="auth-card" aria-label="User login and registration">
+      <div class="auth-head">
+        <h2>Welcome Back</h2>
+        <p>Log in to continue your personal conversation and report.</p>
+      </div>
+      <div class="auth-grid">
+        <form id="loginForm" class="auth-form" autocomplete="off">
+          <h3>Login</h3>
+          <label>
+            Username
+            <input id="loginUsername" type="text" minlength="3" maxlength="50" required />
+          </label>
+          <label>
+            Password
+            <input id="loginPassword" type="password" minlength="6" maxlength="120" required />
+          </label>
+          <button type="submit">Login</button>
+        </form>
+
+        <form id="registerForm" class="auth-form" autocomplete="off">
+          <h3>Create Account</h3>
+          <label>
+            Display name
+            <input id="registerDisplayName" type="text" minlength="1" maxlength="80" required />
+          </label>
+          <label>
+            Username
+            <input id="registerUsername" type="text" minlength="3" maxlength="50" required />
+          </label>
+          <label>
+            Password
+            <input id="registerPassword" type="password" minlength="6" maxlength="120" required />
+          </label>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+      <p id="authStatus" class="auth-status">Use your own account to keep your conversation personal.</p>
+    </section>
+
+    <section id="chatCard" class="chat-card hidden" aria-label="Chat with MindBridge">
+      <div class="chat-topbar">
+        <span id="userBadge" class="user-badge">Not logged in</span>
+        <button id="logoutButton" type="button" class="ghost-btn">Logout</button>
+      </div>
+      <div id="chatWindow" class="chat-window" role="log" aria-live="polite"></div>
+
+      <form id="chatForm" class="composer" autocomplete="off">
+        <div class="composer-actions">
+          <span id="statusText" class="status">Ready</span>
+          <div class="voice-controls">
+            <label for="voiceSelect" class="sr-only">Reply voice</label>
+            <select id="voiceSelect" class="voice-select" aria-label="Choose reply voice">
+              <option value="en-female">English Female</option>
+              <option value="en-male">English Male</option>
+              <option value="ne">Nepali</option>
+            </select>
+          </div>
+          <button
+            id="holdToTalkButton"
+            type="button"
+            class="ghost-btn ptt-btn"
+            aria-label="Start talking"
+          >
+            Start Talking
+          </button>
+        </div>
+        <p id="liveTranscript" class="live-transcript" aria-live="polite">
+          Click Start Talking, speak, then click Stop Listening to send.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <template id="messageTemplate">
+    <article class="msg">
+      <div class="msg-head">
+        <span class="role"></span>
+        <span class="risk"></span>
+      </div>
+      <p class="content"></p>
+    </article>
+  </template>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

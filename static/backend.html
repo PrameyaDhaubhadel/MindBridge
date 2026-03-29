@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindBridge Backend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/backend.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">MindBridge</p>
+        <h1>Clinical Backend Dashboard</h1>
+        <p class="subtitle">View longitudinal user conversation history and detailed mental-health progress report by username.</p>
+      </div>
+      <div class="top-actions">
+        <button id="refreshButton" class="btn">Refresh</button>
+      </div>
+    </header>
+
+    <section class="grid">
+      <aside class="panel list-panel">
+        <div class="panel-head">
+          <h2>Usernames</h2>
+          <span id="metaText" class="meta">Loading...</span>
+        </div>
+        <div id="userList" class="user-list"></div>
+      </aside>
+
+      <section class="panel detail-panel">
+        <div class="panel-head">
+          <h2>Detailed Report</h2>
+          <div class="detail-actions">
+            <button id="humanReportButton" class="btn">Generate Human Report</button>
+            <button id="deleteUserButton" class="btn danger">Delete User</button>
+          </div>
+        </div>
+        <pre id="reportView" class="report-view">Select a username to view all conversation history and detailed report.</pre>
+      </section>
+    </section>
+  </main>
+
+  <script src="/static/backend.js" defer></script>
+</body>
+</html>

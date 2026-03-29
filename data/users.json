@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-03-29T08:05:58.390757+00:00",
+  "users": {
+    "user-660aeced0d0d": {
+      "user_id": "user-660aeced0d0d",
+      "username": "bob01",
+      "display_name": "Bob",
+      "password_salt": "ef23b4bd984ef2a5",
+      "password_hash": "b1922f9a886a474989137948562187ca84f3eebfa7404c87e40977de5bf7acbc",
+      "created_at": "2026-03-29T06:49:13.509488+00:00",
+      "last_login_at": "2026-03-29T06:49:13.509507+00:00"
+    },
+    "user-48a626493fc2": {
+      "user_id": "user-48a626493fc2",
+      "username": "john",
+      "display_name": "John",
+      "password_salt": "a261efb6b7ea1462",
+      "password_hash": "3734e534cfb4a9f309e551eb70d835bce0864358cee8c1dacef26982006e0447",
+      "created_at": "2026-03-29T06:54:32.220431+00:00",
+      "last_login_at": "2026-03-29T06:54:32.220454+00:00"
+    },
+    "user-f324205d38b1": {
+      "user_id": "user-f324205d38b1",
+      "username": "jack",
+      "display_name": "Jack",
+      "password_salt": "ae8941dc24f995d2",
+      "password_hash": "7326806373b317554ecc3721e83f65865bb2c1e2c69d9c4eeccc8717848474eb",
+      "created_at": "2026-03-29T07:06:31.554393+00:00",
+      "last_login_at": "2026-03-29T07:37:25.829758+00:00"
+    },
+    "user-4cd03e30452e": {
+      "user_id": "user-4cd03e30452e",
+      "username": "lia",
+      "display_name": "Lia",
+      "password_salt": "7a51f507f208ddc1",
+      "password_hash": "d50a6eb66101d5c198194b5f4479a74037f29417fe01fc979b6036b00bdaad8a",
+      "created_at": "2026-03-29T07:38:21.743929+00:00",
+      "last_login_at": "2026-03-29T08:05:58.390127+00:00"
+    }
+  }
+}
