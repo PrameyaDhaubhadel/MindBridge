@@ -84,7 +84,11 @@ def backend_page() -> FileResponse:
 
 @app.get("/health")
 def health() -> dict[str, str]:
-    return {"status": "ok"}
+    return {
+        "status": "ok",
+        "runtime": "vercel" if os.getenv("VERCEL") else "local",
+        "commit": os.getenv("VERCEL_GIT_COMMIT_SHA", "local"),
+    }
 
 
 @app.post("/auth/register")
