@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 from typing import List, Dict
 
 import httpx
@@ -15,6 +16,15 @@ def _clean_env(value: str) -> str:
 def _clean_header_value(value: str) -> str:
     # Header values cannot contain CR/LF or other control characters.
     return _clean_env(value)
+
+
+def _sanitize_error_message(message: str, api_key: str) -> str:
+    redacted = message
+    if api_key:
+        redacted = redacted.replace(api_key, "[REDACTED_API_KEY]")
+    # Handle bytes-like error forms that include escaped CR/LF.
+    redacted = re.sub(r"dsk-[A-Za-z0-9-]+", "[REDACTED_API_KEY]", redacted)
+    return redacted
 
 
 class DedalusClient:
@@ -57,7 +67,8 @@ class DedalusClient:
 
             if data is None:
                 key_meta = f"key_len={len(self.api_key)} has_cr={'\\r' in self.api_key} has_lf={'\\n' in self.api_key}"
-                raise RuntimeError(f"Dedalus API request failed for all endpoint variants: {last_error}; {key_meta}")
+                safe_error = _sanitize_error_message(str(last_error), self.api_key)
+                raise RuntimeError(f"Dedalus API request failed for all endpoint variants: {safe_error}; {key_meta}")
 
         try:
             return data["choices"][0]["message"]["content"].strip()
