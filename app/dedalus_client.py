@@ -7,8 +7,14 @@ import httpx
 
 
 def _clean_env(value: str) -> str:
-    # Remove invisible control chars/newlines that break HTTP header validation.
-    return value.replace("\r", "").replace("\n", "").strip()
+    # Remove ASCII control chars that can invalidate HTTP headers.
+    cleaned = "".join(ch for ch in value if ord(ch) >= 32 and ord(ch) != 127)
+    return cleaned.strip()
+
+
+def _clean_header_value(value: str) -> str:
+    # Header values cannot contain CR/LF or other control characters.
+    return _clean_env(value)
 
 
 class DedalusClient:
@@ -41,7 +47,8 @@ class DedalusClient:
             last_error = None
             for url, headers in candidates:
                 try:
-                    response = await client.post(url, json=payload, headers=headers)
+                    safe_headers = {k: _clean_header_value(v) for k, v in headers.items()}
+                    response = await client.post(url, json=payload, headers=safe_headers)
                     response.raise_for_status()
                     data = response.json()
                     break
@@ -49,7 +56,8 @@ class DedalusClient:
                     last_error = exc
 
             if data is None:
-                raise RuntimeError(f"Dedalus API request failed for all endpoint variants: {last_error}")
+                key_meta = f"key_len={len(self.api_key)} has_cr={'\\r' in self.api_key} has_lf={'\\n' in self.api_key}"
+                raise RuntimeError(f"Dedalus API request failed for all endpoint variants: {last_error}; {key_meta}")
 
         try:
             return data["choices"][0]["message"]["content"].strip()
