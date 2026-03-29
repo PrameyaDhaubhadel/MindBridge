@@ -105,3 +105,8 @@ After deployment, open:
 - `/health`
 - `/docs`
 - `/`
+- `/backend`
+
+One Vercel app serves both frontends:
+- MindBridge chat UI at `/`
+- Backend dashboard UI at `/backend`

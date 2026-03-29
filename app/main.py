@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import os
+from shutil import copyfile
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
@@ -27,8 +29,28 @@ app = FastAPI(title="MindBridge API", version="0.1.0")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 STATIC_DIR = BASE_DIR / "static"
-REPORT_FILE = BASE_DIR / "reports" / "user_findings_report.json"
-USERS_FILE = BASE_DIR / "data" / "users.json"
+
+
+def _resolve_runtime_file(source: Path, runtime_relative: str) -> Path:
+    # Vercel serverless file system is read-only except /tmp.
+    if os.getenv("VERCEL"):
+        runtime_base = Path("/tmp") / "mindbridge"
+        target = runtime_base / runtime_relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if not target.exists() and source.exists():
+            copyfile(source, target)
+        return target
+    return source
+
+
+REPORT_FILE = _resolve_runtime_file(
+    BASE_DIR / "reports" / "user_findings_report.json",
+    "reports/user_findings_report.json",
+)
+USERS_FILE = _resolve_runtime_file(
+    BASE_DIR / "data" / "users.json",
+    "data/users.json",
+)
 REPORT_STORE = ReportStore(REPORT_FILE)
 USER_MANAGER = UserManager(USERS_FILE)
 REPORT_AGENT = MentalHealthReportAgent()
