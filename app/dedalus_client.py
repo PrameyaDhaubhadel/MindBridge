@@ -6,14 +6,21 @@ from typing import List, Dict
 import httpx
 
 
+def _clean_env(value: str) -> str:
+    # Remove invisible control chars/newlines that break HTTP header validation.
+    return value.replace("\r", "").replace("\n", "").strip()
+
+
 class DedalusClient:
     def __init__(self) -> None:
-        self.api_key = os.getenv("DEDALUS_API_KEY", "")
-        self.base_url = os.getenv("DEDALUS_API_URL", "https://api.dedaluslabs.ai").rstrip("/")
-        self.model = os.getenv("DEDALUS_MODEL", "openai/gpt-5.4")
+        self.api_key = _clean_env(os.getenv("DEDALUS_API_KEY", ""))
+        self.base_url = _clean_env(os.getenv("DEDALUS_API_URL", "https://api.dedaluslabs.ai")).rstrip("/")
+        self.model = _clean_env(os.getenv("DEDALUS_MODEL", "openai/gpt-5.4"))
 
         if not self.api_key:
             raise RuntimeError("DEDALUS_API_KEY is missing. Add it to your environment.")
+        if any(ch in self.api_key for ch in ("\r", "\n")):
+            raise RuntimeError("DEDALUS_API_KEY contains invalid newline characters.")
 
     async def complete_chat(self, messages: List[Dict[str, str]]) -> str:
         payload = {
